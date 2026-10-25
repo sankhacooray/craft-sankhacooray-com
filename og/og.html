@@ -1,0 +1,74 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--surface:#1d1712;--surface2:#262019;--line:#3a3026;--text:#f1eae1;--dim:#c4b6a6;--muted:#928372;--accent:#e39a5a;--accent-soft:#e39a5a26;--cta-text:#1f1007;
+  --mono:"JetBrains Mono",monospace;--sans:"DM Sans",sans-serif}
+html,body{margin:0;width:1200px;height:630px;overflow:hidden}
+body{background:#14100c;color:#f1eae1;font-family:"DM Sans",sans-serif;display:grid;grid-template-columns:470px 1fr;gap:28px;padding:56px 56px 56px 64px;box-sizing:border-box;
+  background-image:radial-gradient(#ffffff0e 1.2px,transparent 1.3px);background-size:22px 22px}
+.l{display:flex;flex-direction:column}
+.dom{font-family:"JetBrains Mono",monospace;font-size:19px;color:#b3a594;display:flex;align-items:center;gap:12px}
+.sw{display:inline-flex;gap:4px}.sw b{width:12px;height:26px;border-radius:4px}
+h1{font-family:"Instrument Serif",serif;font-weight:400;font-size:150px;line-height:.9;margin:34px 0 0;letter-spacing:-.02em}
+h1 i{font-style:normal;color:#e39a5a}
+.sub{font-family:"Instrument Serif",serif;font-size:42px;line-height:1.1;color:#d9cfc3;margin-top:10px}
+.tags{margin-top:auto;display:flex;flex-wrap:wrap;gap:10px}
+.tags span{white-space:nowrap;font-size:18px;padding:7px 16px;border-radius:999px;background:#ffffff14;color:#efe7dc}
+.r{display:flex;align-items:center}
+.r svg{width:100%;height:auto;filter:drop-shadow(0 24px 40px #000a)}
+.hero-art .board{fill:var(--surface);stroke:var(--line);stroke-width:1.2}
+.hero-art .dotc{fill:var(--muted);opacity:.35}
+.hero-art .cap{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;fill:var(--muted)}
+.hero-art .wood{fill:var(--surface2);stroke:var(--text);stroke-width:1.6;stroke-linejoin:round}
+.hero-art .tenon{fill:var(--accent-soft);stroke:var(--accent);stroke-width:1.8;stroke-linejoin:round}
+.hero-art .slot{fill:var(--surface);stroke:var(--accent);stroke-width:1.4;stroke-dasharray:5 4}
+.hero-art .grain{fill:none;stroke:var(--muted);stroke-width:1;opacity:.55;stroke-linecap:round}
+.hero-art .dim{stroke:var(--muted);stroke-width:1;fill:none}
+.hero-art .dimt{font-family:var(--mono);font-size:11.5px;fill:var(--dim)}
+.hero-art .move{fill:none;stroke:var(--accent);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.hero-art .ground{stroke:var(--muted);stroke-width:1.2}
+.hero-art .hatch{stroke:var(--muted);stroke-width:1;opacity:.5}
+</style></head><body>
+<div class="l">
+  <div class="dom"><span class="sw"><b style="background:#e39a5a"></b><b style="background:#e6b75a"></b><b style="background:#a9785a"></b><b style="background:#d8c6a3"></b></span>craft.sankhacooray.com</div>
+  <h1>craft<i>.</i></h1>
+  <div class="sub">Design, engineering<br>&amp; making</div>
+  <div class="tags"><span>Furniture</span><span>Joinery</span><span>Paper engineering</span></div>
+</div>
+<div class="r hero-art"><svg viewBox="0 0 560 420" role="img" aria-label="A workshop drawing: a mortise-and-tenon joint pulled apart with its dimensions, and the elevation of a table with its width and height in millimetres">
+          <defs><pattern id="dg" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1.1" class="dotc"/></pattern>
+            <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="var(--accent)"/></marker>
+            <marker id="tk" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M2 8L8 2" stroke="var(--muted)" stroke-width="1.4"/></marker></defs>
+          <rect class="board" x="1" y="1" width="558" height="418" rx="18"/>
+          <rect x="12" y="12" width="536" height="396" rx="12" fill="url(#dg)" opacity=".9"/>
+          <text class="cap" x="28" y="40">Joint detail</text>
+          <!-- leg with its mortise -->
+          <rect class="wood" x="44" y="62" width="58" height="320" rx="2"/>
+          <path class="grain" d="M58 70v120M58 230v140M73 66v300M88 76v90M88 214v160"/>
+          <rect class="slot" x="62" y="168" width="22" height="58" rx="1"/>
+          <!-- rail pulled out, tenon leading -->
+          <path class="grain" d="M190 180h70M196 194h64M184 208h76"/>
+          <rect class="wood" x="176" y="160" width="96" height="74" rx="2" fill-opacity="0"/>
+          <rect class="tenon" x="134" y="174" width="42" height="46" rx="1"/>
+          <path class="move" d="M128 197H106" marker-end="url(#ah)"/>
+          <!-- dimensions -->
+          <path class="dim" d="M134 148h42M134 142v12M176 142v12"/><text class="dimt" x="155" y="140" text-anchor="middle">36</text>
+          <path class="dim" d="M126 174v46M121 174h10M121 220h10"/><text class="dimt" x="120" y="201" text-anchor="end">22</text>
+          <path class="dim" d="M286 160v74M280 160h12M280 234h12"/><text class="dimt" x="296" y="201">74</text>
+          <text class="dimt" x="44" y="400">mortise &amp; tenon · mm</text>
+          <!-- elevation -->
+          <text class="cap" x="330" y="40">Elevation</text>
+          <path class="dim" d="M338 80h182M338 74v12M520 74v12"/><text class="dimt" x="429" y="70" text-anchor="middle">1200</text>
+          <rect class="wood" x="338" y="100" width="182" height="14" rx="2"/>
+          <rect class="wood" x="350" y="114" width="12" height="214"/>
+          <rect class="wood" x="496" y="114" width="12" height="214"/>
+          <rect class="wood" x="362" y="114" width="134" height="26"/>
+          <path class="grain" d="M378 127h102"/>
+          <rect class="tenon" x="352" y="118" width="8" height="18"/><rect class="tenon" x="498" y="118" width="8" height="18"/>
+          <path class="dim" d="M538 100v228M532 100h12M532 328h12"/><text class="dimt" x="532" y="220" text-anchor="end" transform="rotate(-90 532 220)" dy="-6">760</text>
+          <line class="ground" x1="326" y1="328" x2="530" y2="328"/>
+          <path class="hatch" d="M332 340l12-12M352 340l12-12M372 340l12-12M392 340l12-12M412 340l12-12M432 340l12-12M452 340l12-12M472 340l12-12M492 340l12-12M512 340l12-12"/>
+          <text class="dimt" x="338" y="400">table · front</text>
+        </svg></div>
+</body></html>
