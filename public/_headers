@@ -1,0 +1,7 @@
+# Images and icons: not fingerprinted, so a moderate 30-day TTL (og.png is also ?v= stamped in meta).
+/*.png
+  Cache-Control: public, max-age=2592000
+/icon.svg
+  Cache-Control: public, max-age=2592000
+/thumbs/*
+  Cache-Control: public, max-age=2592000
