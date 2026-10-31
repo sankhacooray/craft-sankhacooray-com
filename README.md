@@ -2,7 +2,7 @@
 
 **[craft.sankhacooray.com](https://craft.sankhacooray.com)** — the design, engineering & making hub in the
 sankhacooray.com network: physical things Sankha designs (often in Illustrator), engineers and builds by hand —
-furniture made for home, and paper engineering (fold).
+furniture made for home, and paper engineering.
 
 Served by a Cloudflare Worker (`craft-sankhacooray`): static assets from `public/`, plus `src/worker.js`, whose
 `/api/og?url=` route fetches a project site's current `og:image` (allowlisted hosts only, cached 1 h).

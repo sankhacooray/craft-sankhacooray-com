@@ -7,9 +7,8 @@
 //   Responds 404 when the page has no og:image or it isn't a real image; the card then keeps
 //   its fallback art.
 
-const ALLOWED_HOSTS = new Set([
-  "fold.sankhacooray.com",
-]);
+// No card uses a live og image right now; add a project site's host here when one does.
+const ALLOWED_HOSTS = new Set([]);
 const TTL = 3600; // seconds browsers and the edge keep a result
 
 export default {

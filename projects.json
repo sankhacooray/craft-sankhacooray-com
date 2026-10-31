@@ -45,19 +45,44 @@
       "id": "paper",
       "nav": "Paper",
       "title": "Paper engineering",
-      "lede": "Sheets cut, scored and folded into mechanism.",
-      "context": "fold",
+      "lede": "Sheets cut, scored and folded into mechanism: the bench where Stakco began.",
+      "context": "Folded, cut & assembled",
       "projects": [
         {
-          "name": "fold",
-          "desc": "Paper engineering and craft: Stakco and other folded, cut and assembled experiments.",
-          "plat": ["web"],
+          "name": "Paper craft",
+          "desc": "Hinges, pop-ups and stackable folds, cut and assembled at the desk; Stakco grew out of them.",
+          "plat": [],
+          "kind": "paper",
           "role": "mine",
-          "org": "sankhacooray",
-          "years": "2026",
-          "og": "https://fold.sankhacooray.com/",
-          "thumb": "fold.webp",
-          "url": "https://fold.sankhacooray.com/"
+          "org": "Designed & built by hand",
+          "thumb": "paper.webp"
+        },
+        {
+          "name": "Folded mechanisms",
+          "desc": "Hinges, snap-fits and tension structures from single sheets, the vocabulary behind Stakco.",
+          "plat": [],
+          "kind": "paper",
+          "role": "mine",
+          "org": "Designed & built by hand",
+          "placeholder": true
+        },
+        {
+          "name": "Pop-up & kirigami",
+          "desc": "Cards, scenes and pop-up structures: the playful end of paper engineering.",
+          "plat": [],
+          "kind": "paper",
+          "role": "mine",
+          "org": "Designed & built by hand",
+          "placeholder": true
+        },
+        {
+          "name": "Light enclosures",
+          "desc": "Paper as a lampshade: diffusing light, casting shadows, and a switch you can fold.",
+          "plat": [],
+          "kind": "paper",
+          "role": "mine",
+          "org": "Designed & built by hand",
+          "placeholder": true
         }
       ]
     }
